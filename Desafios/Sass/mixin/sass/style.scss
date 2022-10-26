@@ -1,0 +1,17 @@
+@mixin text-style($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.texts {
+    h1 {
+        @include text-style(brown, 34px, Arial);
+    }
+    p {
+        @include text-style(darkgrey, 22px, sans-serif);
+    }
+    .btn {
+        @include text-style(darkviolet, 16px, sans-serif)
+    }
+}

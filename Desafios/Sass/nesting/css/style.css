@@ -1,0 +1,19 @@
+.classe1 ul {
+  background-color: darkgray;
+}
+.classe1 li {
+  background-color: brown;
+  padding: 5px;
+}
+.classe1 button {
+  background-color: darkviolet;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.classe1 button:hover {
+  background-color: darkgoldenrod;
+  transition: 0.4s;
+}
+
+/*# sourceMappingURL=style.css.map */
