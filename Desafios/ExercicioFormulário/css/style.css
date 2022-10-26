@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white !important;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 450px !important;
+  height: auto;
+}
+
+.topLogo {
+  width: 200px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100vw;
+    font-size: 14px !important;
+  }
+  .topLogo {
+    width: 150px;
+  }
+  .container1 {
+    width: 350px !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
